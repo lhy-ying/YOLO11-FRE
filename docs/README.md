@@ -1,6 +1,4 @@
 
-以下是一个符合你要求的英文README.md模板，用于介绍你的项目和数据集申请流程：
-
 # YOLO11-FRE: Enhanced Object Detection for Classroom Student Behavior Recognition
 
 This repository contains the source code for the YOLO11-FRE model, which is proposed in the paper "Enhanced YOLO11-FRE: Real-Time and Accurate Student Behavior Recognition in Educational Surveillance" (submitted to *The Visual Computer*).
