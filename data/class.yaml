@@ -1,0 +1,8 @@
+train: C:\Users\hp\Desktop\dataset\dataset\data\train
+val: C:\Users\hp\Desktop\dataset\dataset\data\val
+test: C:\Users\hp\Desktop\dataset\dataset\data\test
+# number of classes
+
+# class names
+nc: 6
+names: ['listen_class' ,'stand','furtive','distracted','whisper','sleep']
