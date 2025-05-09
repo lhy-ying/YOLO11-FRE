@@ -59,13 +59,13 @@ python val.py --data data/class.yaml --cfg cfg/yolov11s.yaml --weights runs/trai
 ## 📝 Citation
 If you use the code or dataset of this project in your research, please cite the following paper:
 ```bibtex
-@article{your-paper-title,
+@article{liu2025yolo11-FRE,
   title={Enhanced YOLO11-FRE: Real-Time and Accurate Student Behavior Recognition in Educational Surveillance},
-  author={Your Name},
+  author={Liu, Huiying and Yang, Chuanying},
   journal={The Visual Computer},
   year={2025},
   note={DOI: To be assigned (forthcoming)},
-  code={https://github.com/your-username/YOLO11-FRE},
+  code={https://github.com/lhy-ying/YOLO11-FRE},
   dataset={Application access: 20231800129@imut.edu.cn}
 }
 ```
