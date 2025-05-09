@@ -32,10 +32,6 @@ This study uses a self-constructed **Classroom Student Behavior Dataset**, which
 YOLO11-FRE/
 ├── cfg/                # Model configuration files (FasterNet, RFAConv, EMA module definitions)
 ├── data/               # Dataset configuration and preprocessing scripts
-├── models/             # Core model code
-│   ├── backbone/       # FasterNet backbone network
-│   ├── neck/           # RFAConv module
-│   └── heads/          # C2PSA structure and EMA attention
 ├── utils/              # Utility functions (training/testing/visualization)
 ├── train.py            # Training script
 ├── val.py              # Validation script
@@ -52,12 +48,12 @@ pip install -r requirements.txt
 
 ### 2. Training the Model
 ```bash
-python train.py --data data/classroom.yaml --cfg cfg/yolov11-fre.yaml --weights '' --epochs 100
+python train.py --data data/class.yaml --cfg cfg/yolov11s.yaml --weights '' --epochs 150
 ```
 
 ### 3. Testing and Inference
 ```bash
-python val.py --data data/classroom.yaml --cfg cfg/yolov11-fre.yaml --weights runs/train/exp/weights/best.pt
+python val.py --data data/class.yaml --cfg cfg/yolov11s.yaml --weights runs/train/exp/weights/best.pt
 ```
 
 ## 📝 Citation
