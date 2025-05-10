@@ -21,7 +21,7 @@ This repository contains the source code for the YOLO11-FRE model, which is prop
 This study uses a self-constructed **Classroom Student Behavior Dataset**, which includes:
 - **Data Scale**: N classroom video clips, M annotated images, covering K types of student behaviors (such as listening, raising hands, writing, bowing heads, talking, etc.).
 - **Annotation Format**: YOLO format, including bounding boxes and behavior category labels.
-- **Application Method**:“https://tianchi.aliyun.com/notebook-ai/myDataSet#datalabId=203689”At present, only part of the dataset is available from this link. If you need the whole dataset, please apply in the following way，To obtain it, please send an application email to **20231800129@imut.edu.cn** with the subject line: **[Dataset Application] YOLO11-FRE Classroom Behavior Dataset**.
+- **Application Method**:“https://tianchi.aliyun.com/notebook-ai/myDataSet#datalabId=203689”  At present, only part of the dataset is available from this link. If you need the whole dataset, please apply in the following way，To obtain it, please send an application email to **20231800129@imut.edu.cn** with the subject line: **[Dataset Application] YOLO11-FRE Classroom Behavior Dataset**.
  The content should include:
   1. Applicant's name, institution, and contact information (email/phone).
   2. Research purpose and usage (specify non-commercial use).
