@@ -48,12 +48,12 @@ pip install -r requirements.txt
 
 ### 2. Training the Model
 ```bash
-python train.py --data data/class.yaml --cfg cfg/yolov11s.yaml --weights '' --epochs 150
+python train.py 
 ```
 
 ### 3. Testing and Inference
 ```bash
-python val.py --data data/class.yaml --cfg cfg/yolov11s.yaml --weights runs/train/exp/weights/best.pt
+python val.py 
 ```
 
 ## 📝 Citation
